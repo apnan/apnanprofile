@@ -96,9 +96,6 @@ export default function FlexContainer() {
           </FlexColumn>
         </FlexItem>
       </FlexRow>
-      <Description>
-        With expertise in HTML, CSS, JavaScript, and React JS, I streamline development using Figma and GitHub for seamless collaboration. My agile mindset extends to embracing backend technologies like MongoDB and Firebase for full-stack solutions. Proficient in deploying applications with Docker and Heroku, I guarantee smooth and scalable performance. I thrive in Agile environments, collaborating seamlessly in diverse teams. Continuous learning drives me to stay at the forefront of tech trends through online courses and industry events. Let's create captivating web solutions together!
-      </Description>
     </Container>
   );
 }

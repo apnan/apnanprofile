@@ -4,6 +4,7 @@ import {  Element } from 'react-scroll';
 import Home from './Home';
 import Contact from './Contact';
 import Skills from './Skills';
+import About from './About';
 
 const Container = styled.div`
   max-width: 1000px;
@@ -64,6 +65,9 @@ function App() {
       </Element>
       <Element name="skills">
         <Skills />
+        <Element name="about">
+        <About/>
+        </Element>
       </Element>
       <Element name="contact">
         <Contact />
