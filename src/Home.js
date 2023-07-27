@@ -58,7 +58,6 @@ export default function Home() {
          <HomeText>I take pride in my ability to tackle complex problems and deliver innovative solutions. My dedication and commitment have earned me recognition from clients and colleagues alike, bolstering my confidence in pushing the boundaries of web development.</HomeText>
           <HomeText>
           🤝 Let's Create Remarkable Digital Experiences Together! 🤝</HomeText>
-          <HomeText>Ready to embark on this exciting journey together? Let's connect and explore the endless possibilities.</HomeText>
           <Mywork href=" https://github.com/apnan" target="_blank" rel="noopener noreferrer">
        Check My Work
         </Mywork>

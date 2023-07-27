@@ -46,16 +46,24 @@ const LinkedInLink = styled.a`
     text-decoration: underline;
   }
 `;
+const HomeText = styled.p`
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  flex: 0 0 50%; /* 50% width for text to make room for the image */
+`;
 
 export default function ContactPage() {
   return (
     <Container>
       <Heading>Contact Me</Heading>
+      <HomeText>Feel free to get in touch if you have any questions, or just want to say hi 😊</HomeText>
       <ContactItem>
         <IconWrapper>
           <PhoneIcon />
         </IconWrapper>
-        0762919312
+        +46 762 91 93 12
       </ContactItem>
       <ContactItem>
         <IconWrapper>
