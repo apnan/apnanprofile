@@ -63,7 +63,7 @@ export default function ContactPage() {
         <IconWrapper>
           <PhoneIcon />
         </IconWrapper>
-        +46 762 91 93 12
+        +46 762 91 93 1
       </ContactItem>
       <ContactItem>
         <IconWrapper>
