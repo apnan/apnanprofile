@@ -57,8 +57,9 @@ const TextContainer = styled.div`
   flex: 0 0 48%;
   text-align: left;
   padding: 20px;
-
+  margin-top: 200px;
   @media (max-width: 768px) {
+    margin-top: 100px;
     flex: 0 0 100%;
   }
 `;
@@ -73,7 +74,9 @@ export default function FlexContainer() {
         </ImageContainer>
         <TextContainer>
           <Description>
-            I find immense joy in spending quality time with my family. Cooking and traveling are two passions that invigorate me.<br></br> During my work hours, I embrace the opportunity to acquire fresh skills and enhance existing ones. The thrill of crafting efficient and elegant solutions to challenges inspires me, and I take delight in exploring innovative approaches to overcome obstacles.<br></br> Furthermore, fostering positive relationships with my colleagues and customers is a core value that I hold dear in any professional setting.
+          I really love spending great time with my family, and it makes me so happy. Cooking and traveling are two things I absolutely love to do. <br></br>
+          At work, I enjoy learning new things and getting even better at things I already know. I really like coming up with smart and stylish solutions to problems—it's exciting!I also enjoy finding new and creative ways to solve problems. <br></br>
+          Building good relationships with my co-workers and customers is something that's really important to me in any job. <br></br>    
           </Description>
         </TextContainer>
       </FlexRow>
