@@ -55,6 +55,15 @@ const IconItem = styled.div`
   svg {
     width: 100%;
     height: 100%;
+    transition: transform 0.3s, filter 0.3s, box-shadow 0.3s;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transform: translateY(0);
+
+    &:hover {
+      transform: translateY(-5px);
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
   }
 `;
 
@@ -83,15 +92,33 @@ export default function FlexContainer() {
         <FlexItem>
           <FlexColumn>
             <IconContainer>
-              <IconItem><ReactIcon /></IconItem>
-              <IconItem><JavascriptIcon /></IconItem>
-              <IconItem><HtmlIcon /></IconItem> 
-              <IconItem><CssIcon /></IconItem> 
-              <IconItem><FigmaIcon /></IconItem>
-              <IconItem><MongodbIcon /></IconItem> 
-              <IconItem><FirebaseIcon /></IconItem>
-              <IconItem><GithubIcon /></IconItem>
-              <IconItem><CollabIcon /></IconItem> 
+              <IconItem>
+                <ReactIcon />
+              </IconItem>
+              <IconItem>
+                <JavascriptIcon />
+              </IconItem>
+              <IconItem>
+                <HtmlIcon />
+              </IconItem>
+              <IconItem>
+                <CssIcon />
+              </IconItem>
+              <IconItem>
+                <FigmaIcon />
+              </IconItem>
+              <IconItem>
+                <MongodbIcon />
+              </IconItem>
+              <IconItem>
+                <FirebaseIcon />
+              </IconItem>
+              <IconItem>
+                <GithubIcon />
+              </IconItem>
+              <IconItem>
+                <CollabIcon />
+              </IconItem>
             </IconContainer>
           </FlexColumn>
         </FlexItem>

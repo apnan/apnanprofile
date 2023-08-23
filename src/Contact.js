@@ -47,7 +47,7 @@ const LinkedInLink = styled.a`
   }
 `;
 const HomeText = styled.p`
-  font-size: 16px;
+  font-size: 26px;
   color: #555;
   line-height: 1.6;
   margin-bottom: 10px;

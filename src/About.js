@@ -32,7 +32,7 @@ const FlexRow = styled.div`
 
 
 const Description = styled.p`
-  font-size: 18px;
+  font-size: 26px;
   color: #555;
   margin-bottom: 20px;
   line-height: 1.6;
@@ -57,7 +57,7 @@ const TextContainer = styled.div`
   flex: 0 0 48%;
   text-align: left;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 150px;
   @media (max-width: 768px) {
     margin-top: 100px;
     flex: 0 0 100%;
@@ -74,7 +74,7 @@ export default function FlexContainer() {
         </ImageContainer>
         <TextContainer>
           <Description>
-          I really love spending great time with my family, and it makes me so happy. Cooking and traveling are two things I absolutely love to do. <br></br>
+          I really love spending quality time with my family, and it makes me so happy. Cooking and traveling are two things I absolutely love to do. <br></br>
           At work, I enjoy learning new things and getting even better at things I already know. I really like coming up with smart and stylish solutions to problems—it's exciting!I also enjoy finding new and creative ways to solve problems. <br></br>
           Building good relationships with my co-workers and customers is something that's really important to me in any job. <br></br>    
           </Description>

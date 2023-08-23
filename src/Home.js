@@ -2,11 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HomePageContainer = styled.div`
-padding: 20px;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const HomeContent = styled.div`
@@ -23,7 +23,7 @@ const TextContainer = styled.div`
 `;
 
 const HomeText = styled.p`
-  font-size: 16px;
+  font-size: 26px;
   color: #555;
   line-height: 1.6;
   margin-bottom: 10px;
@@ -43,10 +43,13 @@ export default function Home() {
       <HomeContent>
         <TextContainer>
           <HomeText>
-            Hello there! I'm Apnan Jahan, a detail-oriented and dynamic FrontEnd developer who recently completed my studies at Jensen University of Applied Sciences in Stockholm. 🎓 With a strong foundation in web development and an insatiable drive to deliver exceptional results, I am dedicated to crafting user experiences that leave a lasting impact.
+            Hi there! I'm Apnan Jahan, a creative FrontEnd developer. I recently completed my studies at Jensen University of Applied Sciences in Stockholm. 🎓 I love to create  websites that stand out and leave a lasting impression on people.<br></br>
+
+            <br></br>I'm also proud of successfully finishing a 10-month internship. My employer praised my dedication and innovative ideas. I'm always excited to take new challenges and projects that come my way.
+
           </HomeText>
           <HomeText>
-            🤝 Let's Create Remarkable Digital Experiences Together! 🤝
+            🤝 Let's Team Up to Create Great Digital Experiences! 🤝
           </HomeText>
           <Mywork href="https://github.com/apnan" target="_blank" rel="noopener noreferrer">
             Check My Work
